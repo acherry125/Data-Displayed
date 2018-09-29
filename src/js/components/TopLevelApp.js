@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import Search from 'components/presentational/SearchPres';
+
 // Create a Title component that'll render an <h1> tag with some styles
 const Title = styled.h1`
   font-size: 1.5em;
@@ -19,6 +21,7 @@ export default class TopLevelApp extends React.Component {
         return (
             <Wrapper>
                 <Title>Data Displayed</Title>
+                <Search />
             </Wrapper>
         )
     }
