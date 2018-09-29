@@ -18,7 +18,7 @@ export default class TopLevelApp extends React.Component {
     render() {
         return (
             <Wrapper>
-                <Title>My title</Title>
+                <Title>Data Displayed</Title>
             </Wrapper>
         )
     }
